@@ -14,7 +14,7 @@ const Projects = () => {
         <p>project info/brief</p>
         <p>learning points</p>
         <p>view project here</p>
-        <a href="https://github.com/mathiaskerr/PROJECT"><button> GitHub</button></a> 
+        <a href="https://github.com/mathiaskerr/PROJECT"><button> GitHub</button></a> <br/>
         <iframe src={PythonSrc} frameborder="0" width="560" height="315" allowfullscreen/>
     </div>
 
@@ -23,7 +23,7 @@ const Projects = () => {
         <p>project info/brief</p>
         <p>learning points</p>
         <p>view project here</p>
-        <a href="https://github.com/ElizaPeterson/Portals"><button> GitHub</button></a>
+        <a href="https://github.com/ElizaPeterson/Portals"><button> GitHub</button></a> <br/>
         <iframe src={ReactSrc} frameborder="0" width="560" height="315" allowfullscreen/>
     </div>
     

@@ -2,37 +2,64 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.NavBar{
+  list-style: none;
+  display:flex;
+  justify-content: space-between;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 0;
 }
+iframe{
+  width: 35%;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.react{
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+ }
+ .python{
+  display:flex;
+  justify-content: center;
+  margin-top: 100px;
+ }
 
-.App-link {
-  color: #61dafb;
-}
+ .react-text {
+  margin-top: 50px;
+  margin-right: 100px;
+ }
+ .python-text{
+  margin-top: 50px;
+  margin-left: 100px;
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+ @media only screen and (max-width: 600px) {
+  iframe{
+    width: 100%;
+  
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
+   .python{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+
+   .react{
+    display: flex;
+    flex-direction: column;
+   }
+  
+   .react-text {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: -30px;
+;
+   }
+   .python-text{
+    margin-top: -150px;
+    margin-left: 0px;
+    margin-bottom: -30px;
+   }
+
+ }
+

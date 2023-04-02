@@ -7,7 +7,7 @@ import Cv from './Cv';
 
 const Main = () => {
   return (
-    <div>
+    <>
    <Router>
     <NavBar/>
       <Routes>
@@ -16,8 +16,8 @@ const Main = () => {
         <Route path="/cv" element={<Cv/>}/>    
       </Routes>
    </Router>
-    <div></div>
-    </div>
+  
+    </>
   )
 }
 

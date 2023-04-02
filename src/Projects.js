@@ -7,27 +7,36 @@ const Projects = () => {
     const ReactSrc ="https://streamable.com/e/y2wohj?loop=0"
 
   return (
-    <div>
-    Projects
-    <div className='python'>
-        <h2>Python Solo Project</h2>
-        <p>project info/brief</p>
-        <p>learning points</p>
-        <p>view project here</p>
-        <a href="https://github.com/mathiaskerr/PROJECT"><button> GitHub</button></a> <br/>
-        <iframe src={PythonSrc} frameborder="0" width="560" height="315" allowfullscreen/>
-    </div>
-
+    <>
     <div className='react'>
+    <div className='react-text'>
         <h2>React Group Project</h2>
         <p>project info/brief</p>
         <p>learning points</p>
         <p>view project here</p>
-        <a href="https://github.com/ElizaPeterson/Portals"><button> GitHub</button></a> <br/>
-        <iframe src={ReactSrc} frameborder="0" width="560" height="315" allowfullscreen/>
+        <a href="https://github.com/ElizaPeterson/Portals"><button> GitHub</button></a>
+        </div>
+        
+        <iframe src={ReactSrc} frameborder="0" width="100%" height="315" allowfullscreen/>
+        
     </div>
+
+    <div className='python'>
+   
+        <iframe src={PythonSrc} frameborder="0" width="100%" height="315" allowfullscreen/>
+        
+        <div className='python-text'>
+        <h2>Python Solo Project</h2>
+        <p>project info/brief</p>
+        <p>learning points</p>
+        <p>view project here</p>
+        <a href="https://github.com/mathiaskerr/PROJECT"><button> GitHub</button></a>
+        </div>
+    </div>
+
     
-    </div>
+    
+    </>
   )
 }
 

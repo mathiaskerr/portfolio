@@ -1,5 +1,8 @@
-.App {
+body {
   text-align: center;
+  color: antiquewhite;
+  background: rgb(79,14,122);
+background: linear-gradient(90deg, rgba(79,14,122,0.9318321078431373) 16%, rgba(12,15,144,1) 57%, rgba(0,0,0,1) 100%);
 }
 
 .NavBar{
@@ -9,6 +12,13 @@
   margin-left: 30%;
   margin-right: 30%;
   padding: 0;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.NavBar > li > a{
+  color: antiquewhite;
+  text-decoration: none;
 }
 iframe{
   width: 35%;
@@ -25,41 +35,38 @@ iframe{
  }
 
  .react-text {
-  margin-top: 50px;
-  margin-right: 100px;
+  margin-top: 30px;
+  margin-right: 50px;
  }
  .python-text{
-  margin-top: 50px;
-  margin-left: 100px;
+  margin-top: 30px;
+  margin-left: 50px;
  }
 
- @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   iframe{
     width: 100%;
-  
   }
-  
-   .python{
+  .python{
     display: flex;
     flex-direction: column-reverse;
-   }
+  }
 
-   .react{
+  .react{
     display: flex;
     flex-direction: column;
-   }
+  }
   
-   .react-text {
+  .react-text {
     margin-top: 0px;
     margin-right: 0px;
-    margin-bottom: -30px;
-;
-   }
-   .python-text{
-    margin-top: -150px;
-    margin-left: 0px;
-    margin-bottom: -30px;
-   }
+    margin-bottom: 0px;
 
- }
+  }
+  .python-text{
+    margin-top: -100px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+}
 

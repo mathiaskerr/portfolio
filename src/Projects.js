@@ -10,10 +10,13 @@ const Projects = () => {
     <>
     <div className='react'>
     <div className='react-text'>
-        <h2>React Group Project</h2>
-        <p>project info/brief</p>
-        <p>learning points</p>
-        <p>view project here</p>
+        <h2>Black Hole</h2>
+        <p>Group Project | 5 days | JavaScript // React // Json // Express // MongoDb // Css</p>
+        <p>Brief: Build a web app based on a card or dice game.</p>
+        <p>We built a Snakes and ladders type game for two players.</p>
+        <p>The players and their scores are saved on mongoDb.</p>
+        
+        
         <a href="https://github.com/ElizaPeterson/Portals"><button> GitHub</button></a>
         </div>
         
@@ -26,10 +29,11 @@ const Projects = () => {
         <iframe src={PythonSrc} frameborder="0" width="100%" height="315" allowfullscreen/>
         
         <div className='python-text'>
-        <h2>Python Solo Project</h2>
-        <p>project info/brief</p>
-        <p>learning points</p>
-        <p>view project here</p>
+        <h2>ClanBank</h2>
+        <p>Solo Project  | 5 Days | Python // Flask // SQL // Jinja // Html5 // Css	</p>
+        <p>Brief: Build a CRUD web app allowing the user to track transactions.</p>
+
+
         <a href="https://github.com/mathiaskerr/PROJECT"><button> GitHub</button></a>
         </div>
     </div>
